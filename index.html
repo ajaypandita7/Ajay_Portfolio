@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+<div class="Navigation-bar">
+	<nav class="navbar navbar-expand-lg navbar-light ">
+  <a class="navbar-brand" href="#"><span class="logo">AJAY</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"><span class="mymenus">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><span class="mymenus">About</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class="mymenus">Skills</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#projects"><span class="mymenus">Projects</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><span class="mymenus">Contact</span></a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+	<!-- navbar closed here -->
+</div>
+
+<div class="allsections">
+	<div class="section home-section" id="home">
+		<div class="myinfo">
+			<span class="info-home">Hello</span>
+			<div class="info-home">My Name is</div>
+			<div class="logo myname" data-aos="slide-right">Ajay Pandita</div>
+			<div class="info-home"> I am a</div>
+			<span class="fsjd">Full Stack Java Developer</span>
+			<div>
+				<button type="button" class="rsm">Resume</button>
+			</div>
+		</div>
+	</div>
+	<div class="section about-section" id="about">
+		<div class="myimg aboutsect" align="center">
+			<img src="https://assets-global.website-files.com/6344c9cef89d6f2270a38908/64d6bd51ab17a00828b644bf_header.webp" width="350px" style="margin-top: 50px; border-radius: 50%; box-shadow: 0px 0px 30px gray;" height="350px">
+		</div>
+
+		<div class="codj aboutsect">
+			<h1 align="center" class="logo">ABOUT</h1>
+			<p class="career">Searching for the role of Full Stack Developer at an innovative company where I can utilize my experience in designing, coding, testing, debugging, and deploying web applications.</p>
+		</div>
+	</div>
+	<div class="section skills-section" id="skills" align="center">
+		<h1 class="logo">SKILLS SECTION</h1>
+		<table class="tbl" width="90%" height=400px>
+			<tr class="rows">
+				<td align="center" valign="top" width="50%" height="200px">
+					<div>
+						<h3 class="skill-head">Languages</h3>
+						<p class="skillset">
+							Core Java, JavaScript, HTML, CSS, XML, SQL, JSON
+						</p>
+					</div>
+				</td>
+				<td align="center" valign="top">
+					<div>
+						<h3 class="skill-head">Api's & Frameworks</h3>
+						<p class="skillset">Collection, Stream, Restful API, JDBC,JSP, Servlets, Bootstrap</p>
+					</div>
+				</td>
+			</tr>
+			<tr class="rows">
+				<td align="center" valign="top">
+					<div>
+						<h3 class="skill-head">Tools & Servers</h3>
+						<p class="skillset">Eclipse, VS Code, Sublime, JIRA, Postman, Github, MySQL, Oracle, Mavan</p>
+					</div>
+				</td>
+				<td align="center" valign="top">
+					<div>
+						<h3 class="skill-head">Operating System</h3>
+						<p class="skillset">Windows, Linux, Ubuntu, Android</p>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="section project-section" id="projects" align="center">
+		<h1 class="logo">PROJECTS SECTION</h1>
+		<div class="all-projects" align="ce">
+			<div class="card-deck">
+				<div class="card" data-aos="slide-right">
+					<center>
+						<img src="https://cdn-icons-png.flaticon.com/512/1048/1048913.png" class="card-img-top" alt="calculator">
+					</center>
+					 <div class="card-body">
+      <h5 class="card-title">CALCULATOR</h5>
+      <p class="card-text">This app provides simple and advanced mathematical functions.</p>
+				</div>
+			</div>
+			<div class="card" data-aos="slide-down">
+					<center>
+						<img src="https://cdn-icons-png.flaticon.com/512/4052/4052984.png" class="card-img-top" alt="Weather app">
+					</center>
+					 <div class="card-body">
+      <h5 class="card-title">WEATHER APP</h5>
+      <p class="card-text">The weather application will provide users with real-time weather information, forecasts, and other weather-related data, which can help them make better decisions about their day-to-day activities.</p>
+				</div>
+			</div>
+			<div class="card" data-aos="slide-left">
+					<center>
+						<img src="https://cdn3d.iconscout.com/3d/premium/thumb/music-player-8851203-7170461.png?f=webp" class="card-img-top" alt="Music app">
+					</center>
+					 <div class="card-body">
+      <h5 class="card-title">Music APP</h5>
+      <p class="card-text">The primary purpose of the music streaming application is to play music.</p>
+				</div>
+			</div>
+<div class="all-projects" align="ce">
+			<div class="card-deck">
+				<div class="card" data-aos="slide-right">
+					<center>
+						<img src="https://cdn.pixabay.com/photo/2018/05/08/21/29/spotify-3384019_1280.png" class="card-img-top" alt="SPOTIFY">
+					</center>
+					 <div class="card-body">
+      <h5 class="card-title">SPOTIFY CLONE</h5>
+      <p class="card-text">Spotify is a digital music streaming service that offers access to millions of songs, albums, and playlists from a variety of artists and music genres.</p>
+				</div>
+			</div>
+			<div class="card" data-aos="slide-up">
+					<center>
+						<img src="https://cdn-icons-png.flaticon.com/512/365/365797.png" class="card-img-top" alt="TEXT app">
+					</center>
+					 <div class="card-body">
+      <h5 class="card-title">TEXT EDITOR</h5>
+      <p class="card-text">Thretext editor is a software application that allows users to create, change, edit, open, and view plain text files.</p>
+				</div>
+			</div>
+			<div class="card" data-aos="slide-left">
+					<center>
+						<img src="https://cdn-icons-png.flaticon.com/512/10743/10743163.png" class="card-img-top" alt="EMPLOYEE app">
+					</center>
+					 <div class="card-body">
+      <h5 class="card-title">EMPLOYEE MANAGEMENT SYSTEM</h5>
+      <p class="card-text">An employee management system (EMS) is a tool that helps companies improve employee satisfaction and productivity.</p>
+				</div>
+			</div>
+		</div>
+		                  <!-- project div ends-->
+
+	</div>
+	<div class="section contact-section" id="contact" align="center">
+		<h1 class="logo">CONTACT SECTION</h1>
+		<table class="cnt-tbl" height="500px" width="90%">
+			<tr align="center" valign="top">
+				<td width="50%">
+					<div align="left" style="color:royalblue; font-family: Arial Black;">MY INFO</div><br>
+					<p align="left">Contact me on: 9906810140</p>
+          <p align="left">EMAIL-ID:<a href="https:ajay4evr.ap@gmail.com">ajay4evr.ap@gmail.com</a></p>
+          <p align="left">Address: Lohegaon,PUNE,MAHARASTRA </p>
+          <p align="left">Linkedin:<a href="https://www.linkedin.com/in/ajay-pandita-3947151ba/">Ajay Pandita</a></p>
+          <p align="left">Github:<a href="https://github.com/ajaypandita7">ajaypandita7</a></p>
+				</td>
+				<td>
+					<div class="contact-form">
+						<form>
+							<div class="form-row">
+								<div class="form-group col-md-6">
+									<label for="inputEmail4">Email</label>
+									<input type="email" class="form-control" id="inputEmail4">
+								</div>
+								
+							</div>
+							<div class="form-group">
+								<label for="inputAddress">Address</label>
+									<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+							</div>
+							<div class="form-group">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" id="gridCheck">
+									<label class="form-check-lable" for="gridCheck">Check me out</label>
+								</div>
+								<button type="submity" class="btn btn-primary">ENQUIRY</button>
+
+						</form>
+					</div>
+				</td>
+			</tr>
+			
+		</table>
+	</div>
+</div>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
+
+
+
+	
